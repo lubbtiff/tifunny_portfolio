@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Tiffany portfolio </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Tiffany leung</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+			<li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="index.html#methodology" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Methodology</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+	
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portfoio Details</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Portfoio Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xs-12">
+            <div class="portfolio-details-slider swiper">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/tiffany_profolio_05_propertyhouse-01-05.jpg" alt="">
+                </div>
+            </div>
+          </div>
+			<style>
+				.process-wrap {width: 100%;margin:30px auto;}
+				.process-main {width:100%;min-width: 320px;display: flex;}
+				.col-4 {width:33%;position: relative;}
+				.col-4:first-child .process-step:before {content: '1';}
+				.col-4:nth-child(2) .process-step:before{content: '2';}
+				.col-4:last-child .process-step:before{content: '3';}
+				.process-main .col-4:not(:first-child):before{content: "";display: block;position: absolute;width: 100%; height: 4px;top: 17.5px; left: calc(-50% + 20px); right: 0; background: #ebebeb;border: 2px #ebebeb solid;-o-transition: .4s; -ms-transition: .4s;-moz-transition: .4s; -webkit-transition: .4s; transition: .4s;}
+				.process-step-cont { font-family: sans-serif;font-size: 16px;text-transform: uppercase; text-decoration: none;white-space: nowrap;display: flex;flex-wrap: wrap;align-items: center;justify-content: center;align-content: space-between;}
+				.process-step { border: 5px #ebebeb solid;border-radius: 100%; line-height: 0; background: #959595; text-align: center;align-items: center;justify-content: center;align-self: center;display: flex; color: #fff;width: 35px;height: 35px; font-weight: 700;margin-bottom: 7px; z-index: 4;cursor: pointer;}
+				.process-label {font-size:12px; color: #959595; font-weight: 600; width: 100%;text-align: center;}
+				.process-dots {width: 10px; height: 10px; border-radius: 50%; background-color: #ebebeb;cursor: pointer;}
+				.process-step.active{background:#ff6900;}
+				@media(min-width:992px){
+					.process-label {font-size:20px;}
+				}
+				
+				
+			</style>
+			<div class="col-xs-12 process-wrap active-step1">
+			  <div class="process-main">
+				<div class="col-4">
+				  <div class="process-step-cont">
+					<div class="process-step active  step-1"></div>
+					<span class="process-label">Empathize</span>
+				  </div>
+				</div>
+				<div class="col-4">
+				  <div class="process-step-cont">
+					<div class="process-step step-2"></div>
+					<span class="process-label">Concept</span>
+				  </div>
+				</div>
+				<div class="col-4">
+				  <div class="process-step-cont">
+					<div class="process-step  step-3"></div>
+					<span class="process-label">Design</span>
+				  </div>
+				</div>
+			  </div>
+			</div>
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Project</strong>:HKET Property House CMS</li>
+                <li><strong>Client</strong>: HKET Company</li>
+                <li><strong>Tools:</strong>: Sketch, Illustrator, Aftereffects Photoshop</li>
+              </ul>
+            </div>
+          </div>
+			<div class="col-lg-8">
+				<div class="portfolio-description">
+					<h2>Target Users</h2>
+					<p>people who use online and platform to search a property for  hosting</p>
+				</div>
+				<div class="portfolio-description">
+					<h2>Challenge</h2>
+					<ul>
+						<li>there have a lot of competitor do the same things like us , how can we do the user friendly ux design for the user</li>
+						<li>Nno tech about 360 degree to view the property on our site</li>
+						<li>people love to put their preperty info  on facebook or other playform  which is not sa and make the contacting hard</li>
+					</ul>
+				</div>
+				<div class="portfolio-description">
+					<h2>The Goal</h2>
+					<p>Build a product specified in the hosting experience , that can be used to connect users with landlords , agents and real estate companies to make it safer and easier to find and contact between them.</p>
+				</div>
+			</div>
+			
+			<div class="col-xs-12 process-wrap active-step1">
+			  <div class="process-main">
+				<div class="col-4">
+				  <div class="process-step-cont">
+					<div class="process-step  step-1"></div>
+					<span class="process-label">Empathize</span>
+				  </div>
+				</div>
+				<div class="col-4">
+				  <div class="process-step-cont">
+					<div class="process-step active step-2"></div>
+					<span class="process-label">Concept</span>
+				  </div>
+				</div>
+				<div class="col-4">
+				  <div class="process-step-cont">
+					<div class="process-step  step-3"></div>
+					<span class="process-label">Design</span>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<style>
+				.target-user-container h3{margin-bottom:20px;font-size:26px; font-weight:700; text-align:center;}
+				.target-user-container ul{margin-bottom:0;}
+				.target-user-container ul li{list-style-type:none; margin-bottom:12px; }
+				.target-user-container ul li span:first-child{display:inline-block; float:left; margin-right:5px; width:30px; height:30px; font-size:12px; line-height:30px; text-align:center; color:#000; background:#e8f9b4;}
+				.target-user-container ul li span:last-child{display:inline-block; font-size:14px; width:90%; padding-left:8px; line-height:30px;  color:#000; background:#e8f9b4;}
+				.portfolio-detail-survey-container{margin-bottom:30px;}
+				.portfolio-detail-survey-container img{width:100%;}
+				
+			</style>
+			<style>
+			.target-user-container h3{margin-bottom:20px;font-size:26px; font-weight:700; text-align:center;}
+			.target-user-container ul{margin-bottom:0;}
+			.target-user-container ul li{list-style-type:none; margin-bottom:12px; }
+			.target-user-container ul li span:first-child{display:inline-block; float:left; margin-right:5px; width:30px; height:30px; font-size:12px; line-height:30px; text-align:center; color:#000; background:#e8f9b4;}
+			.target-user-container ul li span:last-child{display:inline-block; font-size:14px; width:90%; padding-left:8px; line-height:30px;  color:#000; background:#e8f9b4;}
+			.portfolio-detail-survey-container{margin-bottom:30px;}
+			.portfolio-detail-survey-container img{width:100%;}
+
+			</style>
+			<div class="col-xs-12 target-user-container">
+				<h3>User Interview and Analysis</h3>
+				<div class="row">
+					<ul class="col-lg-6 col-xs-12">
+						<li><span>1</span><span>What platforms or methods  to sell or rent house??</span></li>
+						<li><span>2</span><span>Are there common patterns in their processes?</span></li>
+						<li><span>3</span><span>User frustrates in the process</span></li>
+						<li><span>4</span><span>What is user pain points</span></li>
+					</ul>
+					<ul class="col-lg-6 col-xs-12">
+						<li><span>5</span><span>User needs?</span></li>
+						<li><span>6</span><span>What do user feel about the existing product</span></li>
+						<li><span>7</span><span>What feature user expected to find?</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 portfolio-detail-survey-container">
+				<div class="row gy-4">
+					<div class="col-12">
+						<div class="competitor-wrap">
+							<div class="swiper-slide">
+							  <img src="assets/img/portfolio/tiffany_profolio_05_propertyhouse-02-05.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-xs-12 persona-container">
+				<h3>Affinity Map</h3>
+				<div class="row gy-4">
+					<div class="col-12">
+						<div class="swiper-slide">
+						  <img src="assets/img/portfolio/tiffany_profolio_05_propertyhouse-03-05.jpg" alt="">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		
+			<style>
+				img{width:100%;}
+				h3{margin-bottom:20px;font-size:26px; font-weight:700; text-align:center;}
+			</style>
+			<div class="col-xs-12 process-wrap active-step1">
+			  <div class="process-main">
+				<div class="col-4">
+				  <div class="process-step-cont">
+					<div class="process-step  step-1"></div>
+					<span class="process-label">Empathize</span>
+				  </div>
+				</div>
+				<div class="col-4">
+				  <div class="process-step-cont">
+					<div class="process-step step-2"></div>
+					<span class="process-label">Concept</span>
+				  </div>
+				</div>
+				<div class="col-4">
+				  <div class="process-step-cont">
+					<div class="process-step active step-3"></div>
+					<span class="process-label">Design</span>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-xs-12 persona-container">
+				<div class="row gy-4">
+					<div class="col-12">
+						<div class="swiper-slide">
+						  <img src="assets/img/portfolio/tiffany_profolio_05_propertyhouse-04-05.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<h3>Site Map</h3>
+				<p>Aims :  attract more people to use our property house cms system to selling house. Helping people to find the second - hand house and reseller to release their property
+the site-map include how user and the agencyhost their property in our site and how does our admit controling  their property info.  </p>
+				<div class="row gy-4">
+					<div class="col-12">
+						<div class="swiper-slide">
+						  <img src="assets/img/portfolio/tiffany_profolio_05_propertyhouse-07-05.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row gy-4">
+					<div class="col-12">
+						<div class="swiper-slide">
+						  <img src="assets/img/portfolio/tiffany_profolio_05_propertyhouse-08-04.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
